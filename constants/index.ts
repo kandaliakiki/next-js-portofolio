@@ -3,10 +3,10 @@ export const topbarLinks = [
     route: "/",
     label: "Projects",
   },
-  {
-    route: "/contact",
-    label: "Contact Me",
-  },
+  // {
+  //   route: "/contact",
+  //   label: "Contact Me",
+  // },
 ];
 
 export const websiteDisplayLists = [

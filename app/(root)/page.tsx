@@ -5,9 +5,6 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <h1 className="uppercase text-white font-patua text-4xl tracking-wider text-center">
-        Kandaliakiki
-      </h1>
       <section>
         <div className="grid grid-cols-2 max-lg:grid-cols-1  text-white gap-3 mt-5">
           {websiteDisplayLists.map((list) => (
