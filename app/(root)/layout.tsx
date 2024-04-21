@@ -1,24 +1,11 @@
 import type { Metadata } from "next";
-import { Dosis, Inter, Patua_One } from "next/font/google";
+import { Inter } from "next/font/google";
 import "../globals.css";
 import Topbar from "@/components/shared/Topbar";
 import Head from "next/head";
+import { dosis, patua } from "@/fonts";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const dosis = Dosis({
-  weight: ["400", "600"],
-  subsets: ["latin"],
-  display: "fallback",
-  variable: "--dosis",
-});
-
-export const patua = Patua_One({
-  weight: ["400"],
-  subsets: ["latin"],
-  display: "fallback",
-  variable: "--patua",
-});
 
 export const metadata: Metadata = {
   title: "Kandaliakiki Portfolio",
@@ -34,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-dark-1">
-      <body className={dosis.variable}>
+    <html lang="en" className={`${dosis.variable} ${patua.variable} bg-dark-1`}>
+      <body>
         <Topbar></Topbar>
         <main className="flex flex-row">
           <section className="main-container">
