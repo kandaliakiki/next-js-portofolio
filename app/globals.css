@@ -72,7 +72,7 @@
     @apply flex min-h-screen flex-1 flex-col items-center bg-dark-1 px-6 pb-10 pt-28 max-md:pb-32 sm:px-10;
   }
   .topbar {
-    @apply bg-dark-1 font-dosis text-white text-3xl  fixed top-0 z-30 flex justify-between w-full gap-10 items-center px-32 py-4;
+    @apply bg-dark-1 font-dosis text-white text-3xl  fixed top-0 z-30 flex justify-between  w-full gap-10 items-center  py-4 md:px-32 max-md:px-5;
   }
 }
 
