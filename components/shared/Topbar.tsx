@@ -11,7 +11,7 @@ const Topbar = () => {
           {link.label}
         </Link>
       ))}
-      <h1 className="uppercase text-white font-dosis text-4xl tracking-wider text-center mt-5">
+      <h1 className=" uppercase text-white font-dosis text-4xl tracking-wider text-center mt-5 max-md:hidden">
         Kandaliakiki
       </h1>
       <div>
