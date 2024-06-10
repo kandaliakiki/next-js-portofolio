@@ -16,7 +16,7 @@ export const websiteDisplayLists = [
     detail1: "social media feeds & commenting system",
     detail2: "(include Clerk auth & upload picture)",
     bgImageUrl: "/assets/threadclone.png",
-    url: "https://next-js-threads-clone-pi.vercel.app",
+    url: "https://threads.kikisitestudio.xyz/",
   },
   {
     projectName: "Promptopia",
@@ -24,7 +24,7 @@ export const websiteDisplayLists = [
     detail1: "Open source AI Prompt ",
     detail2: "(include CRUD & google OAuth)",
     bgImageUrl: "/assets/promptopia.png",
-    url: "https://next-js-project-sigma-ten.vercel.app/",
+    url: "https://promptopia.kikisitestudio.xyz/",
   },
   {
     projectName: "CarHub",
