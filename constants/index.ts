@@ -12,7 +12,7 @@ export const topbarLinks = [
 export const websiteDisplayLists = [
   {
     projectName: "Threads Clone",
-    tech: "Next.JS",
+    tech: "Full Next.JS",
     detail1: "social media feeds & commenting system",
     detail2: "(include Clerk auth & upload picture)",
     bgImageUrl: "/assets/threadclone.png",
@@ -20,7 +20,7 @@ export const websiteDisplayLists = [
   },
   {
     projectName: "Promptopia",
-    tech: "Next.JS",
+    tech: "Full Next.JS ",
     detail1: "Open source AI Prompt ",
     detail2: "(include CRUD & google OAuth)",
     bgImageUrl: "/assets/promptopia.png",
@@ -28,19 +28,28 @@ export const websiteDisplayLists = [
   },
   {
     projectName: "CarHub",
-    tech: "Next.JS",
+    tech: "Full Next.JS",
     detail1: "car rental system",
     detail2: "(include using RapidAPI & pagination logic)",
     bgImageUrl: "/assets/carhub.png",
     url: "https://next-js-carhub.vercel.app/",
   },
   {
+    projectName: "Order Management System (OMS)",
+    tech: "Next.JS & ExpressJS",
+    detail1: "Order tracking & Calculate Profit",
+    detail2:
+      "(include CRUD , Searching , Sorting each column & Filter by Month)",
+    bgImageUrl: "/assets/hanaflorist_oms.png",
+    url: "https://hanafloristdisplay.kikisitestudio.xyz/order",
+  },
+  {
     projectName: "Wedding Invites",
-    tech: "Next.JS",
+    tech: "Next.JS & ExpressJS",
     detail1: "Simple Web for Wedding & API for CRUD",
     detail2: "(include using image carousel & video display)",
     bgImageUrl: "/assets/weddingkeke.png",
-    url: "https://weddinginvirvanfransisca.vercel.app/",
+    url: "https://weddinginvite.kikisitestudio.xyz/",
   },
   {
     projectName: "Omnifood",
