@@ -19,6 +19,7 @@ const Home = () => {
               bgImageUrl={list.bgImageUrl}
               tech={list.tech}
               url={list.url}
+              demoUrl={list.demoUrl}
             ></WebsiteDisplay>
           ))}
         </div>
