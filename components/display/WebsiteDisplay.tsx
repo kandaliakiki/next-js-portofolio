@@ -29,7 +29,7 @@ const WebsiteDisplay = ({
           fill
           className="object-cover aspect-video"
         />
-        <div className="aspect-video  w-full">
+        <div className="aspect-video  w-full h-full">
           <div className="w-full h-full relative flex flex-col bg-white transition-all duration-300 opacity-0 hover:opacity-80 text-black justify-center items-center">
             <div className="w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-dosis text-dark-1 max-sm:text-2xl max-[1055px]:text-3xl text-4xl inline font-semibold  text-center">
               <span className="uppercase">{projectName} &nbsp;</span>
@@ -46,7 +46,7 @@ const WebsiteDisplay = ({
       </Link>
 
       <Button
-        className={`mt-3 h-16 w-1/2 mx-auto mb-10 text-white text-2xl p-0 ${
+        className={`mt-3 h-16  w-1/2 mx-auto mb-10 text-white text-2xl max-lg:text-lg p-0 ${
           demoUrl === "" ? "bg-gray-400" : "bg-sky-900"
         }`}
         disabled={demoUrl === ""}

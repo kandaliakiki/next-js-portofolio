@@ -6,7 +6,7 @@ interface DemoDisplayProps {
 
 const DemoDisplay: React.FC<DemoDisplayProps> = ({ videoUrl }) => {
   return (
-    <div className="w-3/4 aspect-video bg-white mx-auto my-5">
+    <div className="w-3/4 max-lg:w-full  aspect-video bg-white mx-auto my-5">
       <iframe
         src={videoUrl}
         frameBorder="0"
