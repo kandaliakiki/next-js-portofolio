@@ -85,14 +85,4 @@ export const websiteDisplayLists = [
     url: "https://omnifood-kiki.netlify.app/",
     demoUrl: "",
   },
-  {
-    projectName: "E-Commerce",
-    tech: "ReactJS",
-    detail1: "E-Commerce using CommerceJS & Stripe for payment ",
-    detail2:
-      "(include cart ,payment , and email confirmation to buyer & seller)",
-    bgImageUrl: "/assets/commercejs.png",
-    url: "https://commerceprojectkiki.netlify.app/",
-    demoUrl: "",
-  },
 ];
