@@ -17,7 +17,7 @@ export const websiteDisplayLists = [
       "Order food, add items to the cart, mark favorites, and complete checkout and payment.",
     detail2: "(includes Clerk authentication, search, and category filtering)",
     bgImageUrl: "/assets/restaurantapp.png",
-    url: "https://restaurantapp.kikisitestudio.xyz/",
+    url: "https://restaurantapp.webcraftgallery.store/",
     demoUrl: "restaurantapp",
   },
   {
@@ -26,7 +26,7 @@ export const websiteDisplayLists = [
     detail1: "Food Landing Page with autoplay video showcase ",
     detail2: "",
     bgImageUrl: "/assets/hawskitchen.png",
-    url: "https://hawskitchen.kikisitestudio.xyz/",
+    url: "https://hawskitchen.webcraftgallery.store/",
     demoUrl: "hawskitchen",
   },
 
@@ -36,7 +36,7 @@ export const websiteDisplayLists = [
     detail1: "social media feeds & commenting system",
     detail2: "(include Clerk auth & upload picture)",
     bgImageUrl: "/assets/threadclone.png",
-    url: "https://threads.kikisitestudio.xyz/",
+    url: "https://threads.webcraftgallery.store/",
     demoUrl: "",
   },
   {
@@ -45,7 +45,7 @@ export const websiteDisplayLists = [
     detail1: "Open source AI Prompt ",
     detail2: "(include CRUD & google OAuth)",
     bgImageUrl: "/assets/promptopia.png",
-    url: "https://promptopia.kikisitestudio.xyz/",
+    url: "https://promptopia.webcraftgallery.store/",
     demoUrl: "",
   },
   {
@@ -64,7 +64,7 @@ export const websiteDisplayLists = [
     detail2:
       "(include CRUD , Searching , Sorting each column & Filter by Month)",
     bgImageUrl: "/assets/hanaflorist_oms.png",
-    url: "https://hanafloristdisplay.kikisitestudio.xyz/order",
+    url: "https://hanafloristdisplay.webcraftgallery.store/order",
     demoUrl: "",
   },
   {
@@ -73,7 +73,7 @@ export const websiteDisplayLists = [
     detail1: "Simple Web for Wedding & API for CRUD",
     detail2: "(include using image carousel & video display)",
     bgImageUrl: "/assets/weddingkeke.png",
-    url: "https://weddinginvite.kikisitestudio.xyz/",
+    url: "https://weddinginvite.webcraftgallery.store/",
     demoUrl: "",
   },
   {
