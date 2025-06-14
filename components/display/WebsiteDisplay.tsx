@@ -27,7 +27,7 @@ const WebsiteDisplay = ({
           alt="website image"
           src={bgImageUrl}
           fill
-          className="object-cover aspect-video"
+          className="object-contain aspect-video"
         />
         <div className="aspect-video  w-full h-full">
           <div className="w-full h-full relative flex flex-col bg-white transition-all duration-300 opacity-0 hover:opacity-80 text-black justify-center items-center">

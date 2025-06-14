@@ -11,6 +11,26 @@ export const topbarLinks = [
 
 export const websiteDisplayLists = [
   {
+    projectName: "Modern POS System (ADMIN)",
+    tech: "Next.js & Express.js",
+    detail1: "Admin dashboard for managing orders, products, and inventory",
+    detail2:
+      "(includes product search, category filtering, date filtering, and responsive design for all devices)",
+    bgImageUrl: "/assets/possystem.png",
+    url: "https://shopapp.webcraftgallery.store/",
+    demoUrl: "",
+  },
+  {
+    projectName: "Modern POS System (CUSTOMER)",
+    tech: "Next.js & Express.js",
+    detail1: "Customer Interface for placing orders to POS System",
+    detail2:
+      "(includes product search, cart system, category filtering and responsive design for all devices)",
+    bgImageUrl: "/assets/possystemcustomer.png",
+    url: "https://shopapp.webcraftgallery.store/buyProduct",
+    demoUrl: "",
+  },
+  {
     projectName: "Restaurant Ordering App",
     tech: "Next.JS & ExpressJS",
     detail1:
