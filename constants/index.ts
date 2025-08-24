@@ -11,6 +11,16 @@ export const topbarLinks = [
 
 export const websiteDisplayLists = [
   {
+    projectName: "Beautiful Landing Page Builder",
+    tech: "Next.js",
+    detail1: "Landing Page Builder for no-coders",
+    detail2:
+      "(user just need to simply adjust text ,image, and link for their landing page)",
+    bgImageUrl: "/assets/landingpagebuilder.png",
+    url: "https://landingpage.webcraftgallery.store/",
+    demoUrl: "landingpagebuilder",
+  },
+  {
     projectName: "Modern POS System (ADMIN)",
     tech: "Next.js & Express.js",
     detail1: "Admin dashboard for managing orders, products, and inventory",

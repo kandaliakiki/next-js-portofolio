@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 const page = () => {
-  const websiteUrl = "https://restaurantapp.kikisitestudio.xyz";
+  const websiteUrl = "https://restaurantapp.webcraftgallery.store/";
   const videoUrlPC =
     "https://www.youtube.com/embed/NLCy5dysmig?si=-mPYru6FRHQn2hhC&autoplay=1&loop=1&playlist=NLCy5dysmig";
   const videoUrlMobile =
